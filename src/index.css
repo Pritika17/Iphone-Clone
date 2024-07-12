@@ -2,10 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #131515;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255, 0.6);
+  border-radius: 50px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 50px;
 }
 
 body {
